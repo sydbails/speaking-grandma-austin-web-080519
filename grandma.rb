@@ -1,3 +1,4 @@
+def speak_to_grandma (phrase)
   if
     phrase == speak_to_grandma.downcase
       return "HUH?! SPEAK UP, SONNY!"
@@ -7,6 +8,7 @@
   elseif
     phrase == "I LOVE YOU GRANDMA!"
       return "I LOVE YOU TOO PUMPKIN!"
+end
 
 #Write a speak_to_grandma method.
 
