@@ -1,9 +1,9 @@
-def speak_to_grandma (phrase)
+def speak_to_grandma(phrase)
   if
-    phrase == speak_to_grandma.downcase
+    phrase == phrase.downcase
       return "HUH?! SPEAK UP, SONNY!"
   elsif
-    phrase == speak_to_grandma.upcase
+    phrase == phrase.upcase
       return "NO, NOT SINCE 1938!"
   elseif
     phrase == "I LOVE YOU GRANDMA!"
