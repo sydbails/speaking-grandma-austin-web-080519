@@ -2,7 +2,7 @@
     phrase == speak_to_grandma.downcase
       return "HUH?! SPEAK UP, SONNY!"
   elsif
-    phrase == speak_to_grandma.uppercase
+    phrase == speak_to_grandma.upcase
       return "NO, NOT SINCE 1938!"
   elseif
     phrase == "I LOVE YOU GRANDMA!"
