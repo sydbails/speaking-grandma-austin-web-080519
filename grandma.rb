@@ -1,11 +1,11 @@
   if
-    ${phrase} == speak_to_grandma.downcase
+    phrase == speak_to_grandma.downcase
       return "HUH?! SPEAK UP, SONNY!"
   elsif
-    ${phrase} == speak_to_grandma.uppercase
+    phrase == speak_to_grandma.uppercase
       return "NO, NOT SINCE 1938!"
   elseif
-    ${phrase} == "I LOVE YOU GRANDMA!"
+    phrase == "I LOVE YOU GRANDMA!"
       return "I LOVE YOU TOO PUMPKIN!"
 
 #Write a speak_to_grandma method.
