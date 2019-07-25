@@ -1,4 +1,3 @@
-def speak_to_grandma ("phrase")
   if
     ${phrase} == speak_to_grandma.downcase
       return "HUH?! SPEAK UP, SONNY!"
